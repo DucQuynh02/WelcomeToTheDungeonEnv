@@ -26,11 +26,11 @@
     state[12] : Số thẻ monsters đã lật
     state[13] : Số monsters trong hang
     state[14:21] : Warrior, Warrior's equipments
-    Warrior = [Knight Shield, 
-            Plate Armor, 
-            Torch, Holy Grail, 
-            Dragon Spear, 
-            Vorpal Sword]
+        Warrior = [Knight Shield, 
+                    Plate Armor, 
+                    Torch, Holy Grail, 
+                    Dragon Spear, 
+                    Vorpal Sword]
 
     state[21:28] : Rogue, Rogue's equipments
         Rogue = [Buckler, 
