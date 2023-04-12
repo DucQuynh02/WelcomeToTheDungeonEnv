@@ -26,7 +26,19 @@
     state[12] : Số thẻ monsters đã lật
     state[13] : Số monsters trong hang
     state[14:21] : Warrior, Warrior's equipments
+    Warrior = [Knight Shield, 
+            Plate Armor, 
+            Torch, Holy Grail, 
+            Dragon Spear, 
+            Vorpal Sword]
+
     state[21:28] : Rogue, Rogue's equipments
+        Rogue = [Buckler, 
+                Mithril Armor, 
+                Ring Of Power, 
+                Invisibility Cloak, 
+                Healing Potion, 
+                Vorpal Dagger]
 
     state[28:36] : Monster đã xem trong phase
             28: Goblin
@@ -66,3 +78,23 @@
     env[60] = 0: Hero Chosen: 0: Random, 1: Warrior, 2: Rogue
     env[61] = 0: Turn
     env[62] = 0: Phase
+
+
+# Info equipments
+    Warrior = [ "Knight Shield: HP+3",
+            "Plate Armor: HP+5",
+            "Torch: Defeat Monsters with strength 3 or less",
+            "Holy Grail: Defeat Monsters with even numbered strength",
+            "Dragon Spear: Defeat the Dragon",
+            "Vorpal Sword: Defeat one Monster that you choose before entering the Dungeon",
+            "HP: 3"
+            ]
+
+    Rogue = [   "Buckler: HP+3",
+                "Mithril Armor: HP+5",
+                "Ring Of Power: Defeat Monsters with strength 2 or less and add their total stregth to your HP",
+                "Invisibility Cloak: Defeat Monsters with stregth 6 or more",
+                "Healing Potion: When you die, come back to life with your adventure's HP (once per Dungeon)",
+                "Vorpal Dagger: Defeat one Monster that you choose before entering the Dungeon",
+                "HP: 3"
+                ]
