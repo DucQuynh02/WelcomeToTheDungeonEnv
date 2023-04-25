@@ -34,13 +34,13 @@ def Test(state, per):
 
 
     if state[12] <= 9 and 1 in ValidActions:
-        return 1, perData
+        return 1, per
     if state[13] >= 4 and 0 in ValidActions:
-        return 0, perData
+        return 0, per
 
     for i in range(3,15):
         if i in ValidActions:
             return i, per
     
     action = ValidActions[np.random.randint(len(ValidActions))]
-    return action, perData
+    return action, per
